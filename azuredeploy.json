@@ -4,14 +4,14 @@
   "parameters": {
     "storageAccountName": {
   "type": "string",
-  "defaultValue": "ncblob",
+  "defaultValue": "nextcloudblob2",
   "metadata": {
     "description": "Storage account name"
   }
 },
 "containerName": {
   "type": "string",
-  "defaultValue": "storage",
+  "defaultValue": "containercloud",
   "metadata": {
     "description": "Container name"
   }
@@ -25,7 +25,7 @@
       }
     },
     "adminPassword": {
-      "type": "Welkom123!",
+      "type": "securestring",
       "metadata": {
         "description": "Admin password"
       }
